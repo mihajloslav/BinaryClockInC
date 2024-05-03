@@ -80,7 +80,7 @@ void fill_column(BCMAT mat, int* column_number, int number) {
 
 void fill_matrix(BCMAT mat, int* column_number, int year, int months, int day, int hours, int minutes, int seconds) {
 	int numbers[] = { year / 1000, (year / 100) % 10, (year / 10) % 10, year % 10, months / 10, months % 10,  day / 10, day % 10, hours / 10 , hours % 10, minutes / 10, minutes % 10, seconds / 10, seconds % 10 };
-	for (int i = 0; i < MAX_COLUMNS; i++)
+	for (int i = 0; i < sizeof(numbers) / sizeof(int); i++)
 		fill_column(mat, column_number, numbers[i]);
 }
 
