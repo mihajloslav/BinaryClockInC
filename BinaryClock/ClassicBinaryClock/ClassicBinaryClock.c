@@ -39,7 +39,6 @@ int main(void) {
 		print_decimal_clock(local_time);
 
 		printf("24 Hour Binary Clock in C\nMade by @mihajloslav\nSource Code: https://github.com/mihajloslav/BinaryClockInC");
-
 		SLEEP(1000);
 		CLEAR_SCREEN();
 	}
