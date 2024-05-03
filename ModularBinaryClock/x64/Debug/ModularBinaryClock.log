@@ -1,0 +1,4 @@
+﻿  ModularBinaryClock.c
+C:\Users\mihaj\OneDrive\Documents\Local Disk D\Programiranje1\Personal Projects\BinaryClockInC\ModularBinaryClock\ModularBinaryClock.c(53,124): warning C4020: 'fill_matrix': too many actual parameters
+C:\Users\mihaj\OneDrive\Documents\Local Disk D\Programiranje1\Personal Projects\BinaryClockInC\ModularBinaryClock\ModularBinaryClock.c(73,95): warning C4029: declared formal parameter list different from definition
+  ModularBinaryClock.vcxproj -> C:\Users\mihaj\OneDrive\Documents\Local Disk D\Programiranje1\Personal Projects\BinaryClockInC\BinaryClock\x64\Debug\ModularBinaryClock.exe

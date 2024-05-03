@@ -3,8 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\BinaryClock\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B3A91B2-5F5D-4543-BD37-84B1AE9D86F5}|BinaryClock.vcxproj|C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\BinaryClock\\BinaryClock.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B3A91B2-5F5D-4543-BD37-84B1AE9D86F5}|BinaryClock.vcxproj|solutionrelative:BinaryClock.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BE19E1AB-A5D5-438C-991D-9DD5E00B11D2}|..\\ModularBinaryClock\\ModularBinaryClock.vcxproj|C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\ModularBinaryClock\\ModularBinaryClock.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C538FE8-48B5-48BF-93A8-7423A0E09481}|..\\ClassicBinaryClock\\ClassicBinaryClock.vcxproj|C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\ClassicBinaryClock\\ClassicBinaryClock.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +16,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BinaryClock.c",
-              "DocumentMoniker": "C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\BinaryClock\\BinaryClock.c",
-              "RelativeDocumentMoniker": "BinaryClock.c",
-              "ToolTip": "C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\BinaryClock\\BinaryClock.c",
-              "RelativeToolTip": "BinaryClock.c",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "ClassicBinaryClock.c",
+              "DocumentMoniker": "C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\ClassicBinaryClock\\ClassicBinaryClock.c",
+              "RelativeDocumentMoniker": "..\\ClassicBinaryClock\\ClassicBinaryClock.c",
+              "ToolTip": "C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\ClassicBinaryClock\\ClassicBinaryClock.c",
+              "RelativeToolTip": "..\\ClassicBinaryClock\\ClassicBinaryClock.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-03T15:06:33.394Z",
+              "WhenOpened": "2024-05-03T19:42:00.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModularBinaryClock.c",
+              "DocumentMoniker": "C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\ModularBinaryClock\\ModularBinaryClock.c",
+              "RelativeDocumentMoniker": "..\\ModularBinaryClock\\ModularBinaryClock.c",
+              "ToolTip": "C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\ModularBinaryClock\\ModularBinaryClock.c",
+              "RelativeToolTip": "..\\ModularBinaryClock\\ModularBinaryClock.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-03T19:34:02.638Z",
               "EditorCaption": ""
             }
           ]

@@ -33,7 +33,7 @@ int main(void) {
 		time_t rawtime;
 		time(&rawtime);
 		struct tm* local_time = localtime(&rawtime);
-		
+
 		fill_matrix(binary_clock_matrix, &column_number, local_time->tm_hour, local_time->tm_min, local_time->tm_sec);
 		print_binary_clock(binary_clock_matrix);
 		print_decimal_clock(local_time);
