@@ -1,10 +1,19 @@
 ﻿//24 Hour Binary Clock in C
 //Made by @mihajloslav
 //Source Code: https://github.com/mihajloslav/BinaryClockInC
+#ifdef _WIN32
 #define _CRT_SECURE_NO_WARNINGS
+#include <windows.h>
+#define SLEEP(ms) Sleep(ms)
+#define CLEAR_SCREEN() system("cls")
+#else
+#include <unistd.h>
+#define SLEEP(ms) sleep(ms)
+#define CLEAR_SCREEN() system("clear")
+#endif
+
 #include <stdio.h>
 #include <time.h>
-#include <windows.h>
 
 #define MAX_ROWS 4
 #define MAX_COLUMNS 6
@@ -18,7 +27,7 @@ void print_decimal_clock(struct tm* local_time);
 
 int main(void) {
 	while (1) {
-		BCMAT binary_clock_matrix = {};
+		BCMAT binary_clock_matrix;
 		int column_number = 0;
 
 		time_t rawtime;
@@ -31,15 +40,15 @@ int main(void) {
 
 		printf("24 Hour Binary Clock in C\nMade by @mihajloslav\nSource Code: https://github.com/mihajloslav/BinaryClockInC");
 
-		Sleep(1000);
-		system("cls");
+		SLEEP(1000);
+		CLEAR_SCREEN();
 	}
 	return 0;
 }
 
 void fill_column(BCMAT mat, int* column_number, int number) {
 	for (int i = MAX_ROWS - 1; i >= 0; i--) {
-		mat[i][*column_number] = (number % 2 != 0);
+		mat[i][*column_number] = number % 2;
 		number /= 2;
 	}
 	(*column_number)++;
