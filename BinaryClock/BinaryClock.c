@@ -1,4 +1,7 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+﻿//24 Hour Binary Clock in C
+//Made by @mihajloslav
+//Source Code: https://github.com/mihajloslav/BinaryClockInC
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <time.h>
 #include <windows.h>
@@ -26,7 +29,7 @@ int main(void) {
 		print_binary_clock(binary_clock_matrix);
 		print_decimal_clock(local_time);
 
-		//printf("24h Binary Clock\nby @mihajloslav\n");
+		printf("24 Hour Binary Clock in C\nMade by @mihajloslav\nSource Code: https://github.com/mihajloslav/BinaryClockInC");
 
 		Sleep(1000);
 		system("cls");
