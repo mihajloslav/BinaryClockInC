@@ -29,14 +29,14 @@
 #define BLOCK               254 // ■
 #define DOT                 250 // ·
 
-#define PRINT_YEAR() printf("%-2d%-2d%-2d%d%c", (local_time->tm_year + 1900) / 1000, ((local_time->tm_year + 1900) / 100) % 10, ((local_time->tm_year + 1900) / 10) % 10, (local_time->tm_year + 1900) % 10, BORDER_VERTICAL)
-#define PRINT_MONTH() printf("%-2d%d%c", (local_time->tm_mon + 1)  / 10, (local_time->tm_mon + 1) % 10, BORDER_VERTICAL)
-#define PRINT_DAY() printf("%-2d%d%c", local_time->tm_mday / 10, local_time->tm_mday % 10, BORDER_VERTICAL)
-#define PRINT_HOUR() printf("%-2d%d%c", local_time->tm_hour / 10, local_time->tm_hour % 10, BORDER_VERTICAL);
-#define PRINT_MINUTE() printf("%-2d%d%c", local_time->tm_min / 10, local_time->tm_min % 10, BORDER_VERTICAL);
+#define PRINT_YEARS() printf("%-2d%-2d%-2d%d%c", (local_time->tm_year + 1900) / 1000, ((local_time->tm_year + 1900) / 100) % 10, ((local_time->tm_year + 1900) / 10) % 10, (local_time->tm_year + 1900) % 10, BORDER_VERTICAL)
+#define PRINT_MONTHS() printf("%-2d%d%c", (local_time->tm_mon + 1)  / 10, (local_time->tm_mon + 1) % 10, BORDER_VERTICAL)
+#define PRINT_DAYS() printf("%-2d%d%c", local_time->tm_mday / 10, local_time->tm_mday % 10, BORDER_VERTICAL)
+#define PRINT_HOURS() printf("%-2d%d%c", local_time->tm_hour / 10, local_time->tm_hour % 10, BORDER_VERTICAL);
+#define PRINT_MINUTES() printf("%-2d%d%c", local_time->tm_min / 10, local_time->tm_min % 10, BORDER_VERTICAL);
 #define PRINT_SECONDS() printf("%-2d%d%c", local_time->tm_sec / 10, local_time->tm_sec % 10, BORDER_VERTICAL);
 
-#define WITHYEAR 1
+#define WITHYEAR 1 //0 OR 1
 
 #define MAX_ROWS 4
 #define MAX_COLUMNS 14
@@ -87,14 +87,14 @@ void fill_matrix(BCMAT mat, int* column_number, int year, int months, int day, i
 void printer_border_type(BORDER border_type) {
 	switch (border_type)
 	{
-	case TOP: {
+	case TOP: { //╔═══════════════════════╗
 		printf("%c", BORDER_TOP_LEFT);
 		for (int i = 0; i < MAX_COLUMNS + MAX_COLUMNS - 1; i++)
 			printf("%c", BORDER_HORIZONTAL);
 		printf("%c\n%c", BORDER_TOP_RIGHT, BORDER_VERTICAL);
 		break;
 	}
-	case MIDDLE: {
+	case MIDDLE: {//╠═══╦═══╦═══╦═══╦═══╦═══╣
 		printf("%c", BORDER_CROSS_LEFT);
 		char count = 0;
 		char withyear = WITHYEAR;
@@ -123,7 +123,7 @@ void printer_border_type(BORDER border_type) {
 		printf("%c\n", BORDER_CROSS_RIGHT);
 		break;
 	}
-	case BOTTOM: {
+	case BOTTOM: { //╚═══╩═══╩═══╩═══╩═══╩═══╝
 		printf("%c", BORDER_BOTTOM_LEFT);
 		char count = 0;
 		char withyear = WITHYEAR;
@@ -180,23 +180,23 @@ void print_decimal_clock(struct tm* local_time) {
 			switch (i)
 			{
 			case 8: {
-				PRINT_YEAR();
+				PRINT_YEARS();
 				break;
 			} 
 			case 12: {
-				PRINT_MONTH();
+				PRINT_MONTHS();
 				break;
 			}
 			case 16: {
-				PRINT_DAY();
+				PRINT_DAYS();
 				break;
 			}
 			case 20: {
-				PRINT_HOUR();
+				PRINT_HOURS();
 				break;
 			}
 			case 24: {
-				PRINT_MINUTE();
+				PRINT_MINUTES();
 				break;
 			}
 			case 28: {
