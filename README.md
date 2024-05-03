@@ -1,2 +1,2 @@
-# Simple 24h Binary Clock in C (For Windows)
+# 24 Hour Binary Clock in C (For Windows)
 ## Made by @mihajloslav
