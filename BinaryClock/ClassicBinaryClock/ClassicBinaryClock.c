@@ -54,12 +54,9 @@ void fill_column(BCMAT mat, int* column_number, int number) {
 }
 
 void fill_matrix(BCMAT mat, int* column_number, int hours, int minutes, int seconds) {
-	fill_column(mat, column_number, hours / 10);
-	fill_column(mat, column_number, hours % 10);
-	fill_column(mat, column_number, minutes / 10);
-	fill_column(mat, column_number, minutes % 10);
-	fill_column(mat, column_number, seconds / 10);
-	fill_column(mat, column_number, seconds % 10);
+	int numbers[] = { hours / 10 , hours % 10, minutes / 10, minutes % 10, seconds / 10, seconds % 10 };
+	for (int i = 0; i < sizeof(numbers) / sizeof(int); i++)
+		fill_column(mat, column_number, numbers[i]);
 }
 
 void print_binary_clock(BCMAT mat) {

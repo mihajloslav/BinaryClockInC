@@ -38,15 +38,15 @@
 
 #define WITHYEAR 1 //0 OR 1
 
-#define MAX_ROWS 4
-#define MAX_COLUMNS 14
+#define MAX_ROWS 10
+#define MAX_COLUMNS 20
 
 typedef int BCMAT[MAX_ROWS][MAX_COLUMNS];
 
 typedef enum border_type { TOP, MIDDLE, BOTTOM } BORDER;
 
 void fill_column(BCMAT mat, int* column_number, int number);
-void fill_matrix(BCMAT mat, int* column_number, int hours, int minutes, int seconds);
+void fill_matrix(BCMAT mat, int* column_number, int years, int months, int days, int hours, int minutes, int seconds);
 void printer_border_type(BORDER border_type);
 void print_binary_clock(BCMAT mat);
 void print_decimal_clock(struct tm* local_time);

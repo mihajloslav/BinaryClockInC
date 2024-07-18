@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{D58FE847-AC7C-4B45-8026-7E5DE967B62A}|ModularBinaryClock\\ModularBinaryClock.vcxproj|solutionrelative:ModularBinaryClock\\ModularBinaryClock.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{814647CB-D64C-4588-9623-D8211AED2243}|ExtendedBinaryClock\\ExtendedBinaryClock.vcxproj|C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\BinaryClock\\ExtendedBinaryClock\\ExtendedBinaryClock.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{814647CB-D64C-4588-9623-D8211AED2243}|ExtendedBinaryClock\\ExtendedBinaryClock.vcxproj|solutionrelative:ExtendedBinaryClock\\ExtendedBinaryClock.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3AEE1771-ED43-4A67-91EB-953D76A984DA}|ClassicBinaryClock\\ClassicBinaryClock.vcxproj|C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\BinaryClock\\ClassicBinaryClock\\ClassicBinaryClock.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3AEE1771-ED43-4A67-91EB-953D76A984DA}|ClassicBinaryClock\\ClassicBinaryClock.vcxproj|solutionrelative:ClassicBinaryClock\\ClassicBinaryClock.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -28,23 +32,38 @@
               "RelativeDocumentMoniker": "ModularBinaryClock\\ModularBinaryClock.c",
               "ToolTip": "C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\BinaryClock\\ModularBinaryClock\\ModularBinaryClock.c",
               "RelativeToolTip": "ModularBinaryClock\\ModularBinaryClock.c",
-              "ViewState": "AQIAABMAAAAAAAAAAAAkwCgAAAASAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAANMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-05-03T19:49:56.268Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ExtendedBinaryClock.cpp",
+              "DocumentMoniker": "C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\BinaryClock\\ExtendedBinaryClock\\ExtendedBinaryClock.cpp",
+              "RelativeDocumentMoniker": "ExtendedBinaryClock\\ExtendedBinaryClock.cpp",
+              "ToolTip": "C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\BinaryClock\\ExtendedBinaryClock\\ExtendedBinaryClock.cpp",
+              "RelativeToolTip": "ExtendedBinaryClock\\ExtendedBinaryClock.cpp",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAF4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-04T12:54:49.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ClassicBinaryClock.c",
               "DocumentMoniker": "C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\BinaryClock\\ClassicBinaryClock\\ClassicBinaryClock.c",
               "RelativeDocumentMoniker": "ClassicBinaryClock\\ClassicBinaryClock.c",
               "ToolTip": "C:\\Users\\mihaj\\OneDrive\\Documents\\Local Disk D\\Programiranje1\\Personal Projects\\BinaryClockInC\\BinaryClock\\ClassicBinaryClock\\ClassicBinaryClock.c",
               "RelativeToolTip": "ClassicBinaryClock\\ClassicBinaryClock.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAARAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-03T19:49:02.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T19:49:02.113Z"
             }
           ]
         }
